@@ -1,0 +1,19 @@
+{
+  "name": "meetings",
+  "private": true,
+  "description": "TC54 plenary meeting agendas and minutes",
+  "homepage": "https://github.com/Ecma-TC54/meetings#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecma-TC54/meetings.git"
+  },
+  "license": "",
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "lint:fix": "markdownlint-cli2 --fix",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.22.1"
+  }
+}

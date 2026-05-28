@@ -1,0 +1,9 @@
+{
+  "globs": [
+    "**/*.md"
+  ],
+  "ignores": [
+    "node_modules/**",
+    "202[3-5]/*.md" // ignore issues in older files. maybe clean up later though!
+  ]
+}
